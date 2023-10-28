@@ -1,6 +1,6 @@
-<h1>Makeova</h1>
+<h1>Contractor website</h1>
 
-Makeova is a modern responsive HTML5 landing page template suitable for use by home renovation agencies or contractors. With this template, you can easily create a landing page website. Some of the design components shipped with this template include:
+Some of the design components included in this template include:
 
 <ul>
   <li>Animated pulsing play button</li>
@@ -14,7 +14,7 @@ Makeova is a modern responsive HTML5 landing page template suitable for use by h
 
 This template was developed using Bootstrap5, Sass, Fontawesome, Bootstrap Icons, JavaScript, HTML5, GLightbox, NPM, Autoprefixer, PostCSS and Masonry layout.
 
-<h2>Screenshots</h2>
+<!-- <h2>Screenshots</h2>
 
 <h4>Light Mode (Theme color: Green)</h4>
 
@@ -26,13 +26,7 @@ This template was developed using Bootstrap5, Sass, Fontawesome, Bootstrap Icons
 
 <h4>Dark Mode (Theme color: Dark)</h4>
 
-![Artboard 1v2-min](https://user-images.githubusercontent.com/64320618/210108996-ceb7e1e7-8b79-465e-9cfe-58ff7ba83933.png)
-
-<h2>Links</h2>
-
-<ul>
-  <li>Demo: <a href="https://makeova.netlify.app/" target="_blank">https://makeova.netlify.app/</a></li>
-</ul>
+![Artboard 1v2-min](https://user-images.githubusercontent.com/64320618/210108996-ceb7e1e7-8b79-465e-9cfe-58ff7ba83933.png) -->
 
 <h2>Tech Stack</h2>
 
@@ -74,18 +68,4 @@ This template was developed using Bootstrap5, Sass, Fontawesome, Bootstrap Icons
   <li>
     <b><a href="https://mugshotbot.com/" target="_blank">MUGSHOTBOT</a></b>: Automatic beautiful link previews
   </li>
-</ul>
-
-<h2>Acknowledgement</h2>
-
-<ul>
-  <li><b><a href="https://codepen.io/yend24/pen/wvmwGZW" target="_blank">@Yend724</a></b>: Constant velocity slider</li>
-</ul>
-
-<h2>Author's Links</h2>
-
-<ul>
-  <li>Portfolio - <a href="https://sammyleths.com" target="_blank">@SammyLeths</a></li>
-  <li>Linkedin - <a href="https://www.linkedin.com/in/eyiowuawi/" target="_blank">@SammyLeths</a></li>
-  <li>Twitter - <a href="https://twitter.com/SammyLeths" target="_blank">@SammyLeths</a></li>
 </ul>
