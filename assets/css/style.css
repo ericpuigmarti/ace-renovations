@@ -11528,6 +11528,7 @@ textarea.form-control-lg {
 }
 .hero__feat-images {
   padding-bottom: 6rem;
+  padding-top: 3rem;
 }
 .hero--image1 {
   max-width: 25rem;
@@ -11553,6 +11554,10 @@ textarea.form-control-lg {
   .hero--image2 {
     max-width: 14rem;
   }
+}
+
+section .featured-in {
+  transition: none !important;
 }
 
 @media (max-width: 991.98px) {
@@ -11866,7 +11871,8 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .bottom-cta__email {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
+    font-size: 1.2rem;
   }
 }
 

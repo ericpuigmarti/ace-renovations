@@ -18,7 +18,7 @@
   <title>Ace Home Renovations</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#spy-section">
+<body data-bs-spy="scroll" data-bs-target="#spy-section" c">
 
   <!-- START THE NAVBAR SECTION -->
 
@@ -29,12 +29,11 @@
 
       <!-- COLOR SWITCHER ON MOBILE SCREEN ONLY -->
 
-      <div
-        class="theme-switcher switcher-sm d-flex align-items-center justify-content-center d-lg-none ms-auto me-3 me-md-4">
+      <div class="theme-switcher switcher-sm d-flex align-items-center justify-content-center d-lg-none ms-auto me-3 me-md-4">
         <button class="btn--theme-switcher btnsm me-2 light-dark-btn">
           <i class="fas fa-moon light-dark-icon"></i>
         </button>
-        <div class="dropdown theme-switcher__color-picker">
+        <!-- <div class="dropdown theme-switcher__color-picker">
           <button class="btn--theme-switcher btnsm dropdown-toggle color-toggle-btn" type="button"
             data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fas fa-palette"></i>
@@ -44,7 +43,7 @@
               <button class="btn--color primary-theme"></button>
               <button class="btn--color secondary-theme"></button>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -62,15 +61,15 @@
             <li class="nav-item my-auto">
               <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
-            <li class="nav-item my-auto">
+            <!-- <li class="nav-item my-auto">
               <a class="nav-link" aria-current="page" href="#process">Process</a>
-            </li>
+            </li> -->
             <li class="nav-item my-auto">
               <a class="nav-link" href="#testimonial">Reviews</a>
             </li>
-            <!-- <li class="nav-item my-auto">
-              <a class="nav-link" href="#options">Options</a>
-            </li> -->
+            <li class="nav-item my-auto">
+              <a class="nav-link" href="#options">Services</a>
+            </li>
             <li class="nav-item my-auto">
               <a class="nav-link" href="#gallery">Gallery</a>
             </li>
@@ -84,7 +83,7 @@
               <button class="btn--theme-switcher me-2 light-dark-btn">
                 <i class="fas fa-moon light-dark-icon"></i>
               </button>
-              <div class="dropdown theme-switcher__color-picker">
+              <!-- <div class="dropdown theme-switcher__color-picker">
                 <button class="btn--theme-switcher dropdown-toggle color-toggle-btn" type="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fas fa-palette"></i>
@@ -95,7 +94,7 @@
                     <button class="btn--color secondary-theme"></button>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
             <button class="btn-flat mt-4 mt-lg-0 btn--show-modal order-1 order-lg-2" id="get-estimate">Get your
               estimate</button>
@@ -105,13 +104,18 @@
     </div>
   </nav>
 
-  <!-- START THE HERO SECTION -->
+  <!-- PROMO BANNER -->
+  <div class="alert alert-warning sticky-top" role="alert">
+    <!-- <h4 class="alert-heading">Winter promotion</h4> -->
+    <strong>Limited time Winter Promo:</strong>  Get your bathroom entire remodeled starting at $3,000
+  </div>
 
+  <!-- START THE HERO SECTION -->
   <section class="hero section" id="home">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-lg-6 my-auto hero__intros pt-5 pt-xl-4">
-          <h1 class="display-2">Home renovations simplified.</h1>
+          <h1 class="display-2">Renovations simplified.</h1>
           <p class="display-2--description">A stramlined platform to design, plan, and build - all in one place
           </p>
           <div class="hero__intros--ctas d-flex align-items-center">
@@ -136,7 +140,6 @@
   </section>
 
   <!-- START THE FEATURED IN SECTION -->
-
   <section class="featured-in px-3 px-md-0 section" id="featured-in">
     <div class="container">
       <div class="row text-center py-5">
@@ -179,16 +182,15 @@
   </section>
 
   <!-- START THE PROCESS SECTION -->
-
   <section class="process section" id="process">
     <div class="container">
       <div class="row mb-5">
         <div class="col-md-6">
           <div class="process__headline-wrapper me-auto">
-            <h3 class="display-3--title text-white mb-5 mb-lg-1">A simple and streamlined process</h3>
+            <h3 class="display-3--title text-white mb-5 mb-lg-1">Renovations simplified</h3>
           </div>
         </div>
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <div class="process__intro-wrapper ms-auto pe-3">
             <p class="display-3--intro text-white lead pb-3">
               Use our tools to plan, design, and build your renovation with the industry's top designers and
@@ -196,7 +198,7 @@
             </p>
             <a href="#options" class="display-3--link text-white fw-bold">How does it work?</a>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="row gx-sm-5">
         <div class="col-xl-4 col-md-6 mb-5 mb-xl-0">
@@ -247,7 +249,6 @@
   </section>
 
   <!-- START THE TESTIMONIAL SECTION -->
-
   <section class="testimonial section" id="testimonial">
     <div class="container">
       <div class="row">
@@ -345,12 +346,11 @@
   </section> -->
 
   <!-- START THE OPTIONS SECTION -->
-
   <section class="options section" id="options">
     <div class="container">
       <div class="row mb-5 text-center">
         <div class="col-md-12">
-          <h3 class="display-4">Our Speciality</h3>
+          <h3 class="display-4">Our Services</h3>
         </div>
       </div>
       <div class="options-card-wrapper mx-auto">
@@ -397,8 +397,18 @@
               <div class="card-body options__card__body">
                 <h4 class="card-title options__card__body--title">Basement</h4>
                 <p class="card-meta">2-3 WEEKS TO BUILD</p>
-                <p class="card-text options__card__body">Create your backyard getaway with durable materials and
-                  beautiful finishes.</p>
+                <p class="card-text options__card__body">Transform your basement into a beautiful and functional living space.</p>
+                <button class="btn-flat btn-sm btn--show-modal" id="get-estimate">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" id="flooring">
+            <div class="card options__card--4 m-xl-2">
+              <img src="https://images.unsplash.com/photo-1630699376289-b62375a35505?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card--image options__card--image" alt="Flooring">
+              <div class="card-body options__card__body">
+                <h4 class="card-title options__card__body--title">Flooring</h4>
+                <p class="card-meta">2-3 DAYS TO INSTALL</p>
+                <p class="card-text options__card__body">Transform your home with high-quality vinyl, laminate, and hardwood flooring installations.</p>
                 <button class="btn-flat btn-sm btn--show-modal" id="get-estimate">Learn more</button>
               </div>
             </div>
@@ -410,7 +420,6 @@
 
 
   <!-- START THE GALLERY SECTION -->
-
   <section class="gallery section" id="gallery">
     <div class="container">
       <div class="row gallery__wrapper">
@@ -511,7 +520,7 @@
             <h3 class="display-4 mb-4">
               Look at what we’ve done!
             </h3>
-            <p class="mb-4 lead">Discover what clients were able to achieve with Makeova.</p>
+            <p class="mb-4 lead">Discover what clients were able to achieve with us.</p>
             <a href="#gallery" class="btn-outline btn-sm me-auto">View project gallery</a>
           </div>
         </div>
@@ -524,12 +533,10 @@
   <section class="py-5 bottom-cta" id="bottom-cta">
     <div class="container py-5">
       <div class="row g-3 g-xl-5">
-        <div class="col-md-12 col-lg-5 mb-5 mb-lg-0">
+        <div class="col-md-12 col-lg-12 mb-5 mb-lg-0">
           <h3 class="display-4 text-white">Let’s work on your project together!</h3>
-          <button class="btn-flat btn-flat-white btn-sm btn--show-modal" id="login-signup">Give us a call</button>
-        </div>
-        <div class="col-md-12 col-lg-7 mt-auto">
-          <p class="bottom-cta__email display-3 text-white text-lg-end mb-0 mb-lg-5">hello@acehomerenovations.com</p>
+          <p class="bottom-cta__email display-3 text-white mb-0 mb-lg-5" style="font-size: 2rem !important;">hello@acecustomrenovations.ca</p>
+          <button class="btn-flat btn-flat-white btn-sm btn--show-modal" id="login-signup">Get an estimate</button>
         </div>
       </div>
     </div>
@@ -573,7 +580,7 @@
                   <hr class="footer__col--headline">
                   <ul class="footer__col--links mt-5 mt-lg-0">
                     <li><a href="tel:+15199983638">(519) 998-3638</a></li>
-                    <li><a href="mailto:sammy@sammyleths.com">hello@acehomerenovations.com</a></li>
+                    <li><a href="mailto:hello@acehomerenovations.ca">hello@acecustomrenovations.ca</a></li>
                   </ul>
                 </div>
                 <!-- <div class="col-md-12 col-lg-3 footer__col d-flex flex-column">
@@ -581,10 +588,10 @@
                     <ul class="footer__col--links tos mt-3 mt-lg-0 mb-lg-auto mb-5">
                     <li><a href="#">Terms of Use</a></li>
                     <li><a href="#">Privacy Policy</a></li>
-                  </ul> -->
-                  <!-- <p class="footer__col--credit">Website by <a class="fw-semibold" href="https://www.ericpuigmarti.com"
-                      target="_blank">Eric Puigmarti</a></p> -->
-                </div>
+                  </ul>
+                  <p class="footer__col--credit">Website by <a class="fw-semibold" href="https://www.ericpuigmarti.com"
+                      target="_blank">Eric Puigmarti</a></p>
+                </div> -->
               </div>
             </div>
           </div>
@@ -705,7 +712,8 @@
                 <option value="1">Bathroom</option>
                 <option value="2">Kitchen</option>
                 <option value="3">Backyard</option>
-                <option value="3">Basement</option>
+                <option value="4">Basement</option>
+                <option value="5">Flooring</option>
               </select>
               <label for="floatingSelectOption">I'm interested in</label>
             </div>

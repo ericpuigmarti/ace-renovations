@@ -165,10 +165,16 @@ const toggleTheme = () => {
   !body.classList.contains('dark-mode') ? setDarkTheme() : setLightTheme();
 };
 
+// ------- Theme switch function (disabled)
+// const checkPreference = () => {
+//   preferenceQuery.matches && window.matchMedia
+//     ? setDarkTheme()
+//     : setLightTheme();
+// };
+
+// Always set to the light theme
 const checkPreference = () => {
-  preferenceQuery.matches && window.matchMedia
-    ? setDarkTheme()
-    : setLightTheme();
+  setLightTheme();
 };
 
 lightDarkBtn.forEach((ldBtn) => {
