@@ -310,11 +310,14 @@ table {
   /* border: 1px solid red !important; */
   margin-bottom: 0 !important ;
   border-radius: 0 !important;
-  z-index: 100 !important;
 }
 
-..offcanvas.offcanvas-end {
+.offcanvas.offcanvas-end {
   z-index: 1111 !important;
+}
+
+#floatingTextareaMessage {
+  min-height: 6em !important;
 }
 
 caption {
@@ -647,8 +650,8 @@ progress {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px;
-  }
+    max-width: 540px;}
+  
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -3261,6 +3264,10 @@ textarea.form-control-lg {
   .dropdown-menu-sm-end[data-bs-popper] {
     right: 0;
     left: auto;
+  }
+  .bottom-cta__email {
+    /* border: 1px solid red; */
+    padding-bottom: 1em;
   }
 }
 @media (min-width: 768px) {
