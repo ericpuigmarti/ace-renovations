@@ -306,6 +306,17 @@ table {
   border-collapse: collapse;
 }
 
+.sticky-top {
+  /* border: 1px solid red !important; */
+  margin-bottom: 0 !important ;
+  border-radius: 0 !important;
+  z-index: 100 !important;
+}
+
+..offcanvas.offcanvas-end {
+  z-index: 1111 !important;
+}
+
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;

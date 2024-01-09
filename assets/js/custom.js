@@ -176,7 +176,7 @@ const toggleTheme = () => {
 const checkPreference = () => {
   setLightTheme();
 };
-
+//
 lightDarkBtn.forEach((ldBtn) => {
   ldBtn.addEventListener('click', toggleTheme);
 });
